@@ -1,0 +1,86 @@
+html { 
+	width:1170px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+body { 
+	font-family: Georgia, Times New Roman, serif; 
+}  
+
+h1 {
+
+	font: bold 48px "Roadgeek2000SeriesCRegular", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif; 
+	margin:0px;
+	float:left;
+}
+
+a {
+	text-decoration:none;
+	color:#0F0F95;
+	font-family: Helvetica, Arial, sans-serif; 
+}
+
+p {
+	color:#333333;
+}
+
+h3 {
+	letter-spacing:2px;
+	font-size:37px;
+	color:white;
+	background:#555;
+	padding-left:10px;
+	font-family: Helvetica, Arial, sans-serif; 
+}
+
+hr {
+	width:100%;
+	float:left;
+	margin-left:0px;
+}
+
+.header {
+	margin-top:25px;
+}
+
+.clear {
+	clear:both;
+}
+
+.contact {
+	float:right;
+	padding-top:45px;
+	font-size:12px;
+}
+
+.nav  {
+	clear:both;
+	float:left;	
+}
+
+.navItem {
+	padding-left:29px;
+	margin-bottom:16px;
+	font-size:21px;
+}
+
+.quote p{
+	font-size:16px;
+	font-style:italic;
+	color:#777;
+	margin:16px 0 16px 0;
+}
+
+.span3 {
+	margin-left:293px;
+}
+
+.span6 {
+	margin-left:485px;
+}
+
+.span9 {
+	margin-left:878px;
+}
