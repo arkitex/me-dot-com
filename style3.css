@@ -10,7 +10,6 @@ body {
 }  
 
 h1 {
-
 	font: bold 48px "Roadgeek2000SeriesCRegular", Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-family: Helvetica, Arial, sans-serif; 
 	margin:0px;
@@ -29,11 +28,21 @@ p {
 
 h3 {
 	letter-spacing:2px;
-	font-size:37px;
+	font-size:31px;
 	color:white;
 	background:#555;
 	padding-left:10px;
 	font-family: Helvetica, Arial, sans-serif; 
+}
+
+#toph3 {
+	margin-top:18px;
+}
+
+#left {
+	margin-top:18px;
+	width:460px;
+	float:left;
 }
 
 hr {
@@ -46,6 +55,20 @@ hr {
 	width:460px;
 	float:left;
 	border: 1px solid #777;
+	margin-bottom: 16px;
+}
+
+#heroCaption {
+	font-size:21px;
+}
+
+#heroTitle {
+	font: 31px Helvetica Neue, Helvetica, Arial, sans-serif;
+	margin:0;
+}
+
+#heroBody {
+	margin-top:10px;
 }
 
 .row {
