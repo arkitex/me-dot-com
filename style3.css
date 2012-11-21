@@ -6,11 +6,12 @@ html {
 
 body { 
 	font-family: Georgia, Times New Roman, serif; 
+	width:960px;
 	background-image:url(http://subtlepatterns.com/patterns/old_wall.png);
 }  
 
 h1 {
-	font: bold 48px "Roadgeek2000SeriesCRegular", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font: bold 48px Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-family: Helvetica, Arial, sans-serif; 
 	margin:0px;
 	float:left;
@@ -19,7 +20,7 @@ h1 {
 a {
 	text-decoration:none;
 	color:#0F0F95;
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: Helvetica Neue, Arial, sans-serif; 
 }
 
 p {
@@ -27,12 +28,25 @@ p {
 }
 
 h3 {
-	letter-spacing:2px;
 	font-size:31px;
 	color:white;
 	background:#555;
 	padding-left:10px;
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+
+table {
+	margin-top:24px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+
+.tableCategory {
+	font-size:24px;
+}
+
+.tableValue {
+	padding-left:32px;
+	font-size:16px;
 }
 
 #toph3 {
@@ -41,12 +55,31 @@ h3 {
 
 #left {
 	margin-top:18px;
-	width:460px;
+	width:462px;
 	float:left;
+	background-image: linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+background-image: -o-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+background-image: -moz-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+background-image: -webkit-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+background-image: -ms-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.24, rgb(85,85,85)),
+	color-stop(0.62, rgb(102,102,102)),
+	color-stop(0.81, rgb(119,119,119))
+);
+}
+
+#right {
+	margin-left: 500px;
+	width:460px;
 }
 
 hr {
-	width:100%;
+	width:960px;
 	float:left;
 	margin-left:0px;
 }
@@ -55,25 +88,26 @@ hr {
 	width:460px;
 	float:left;
 	border: 1px solid #777;
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 }
 
 #heroCaption {
-	font-size:21px;
+	font-size:16px;
+	margin:0 10px 0 10px;
 }
 
 #heroTitle {
 	font: 31px Helvetica Neue, Helvetica, Arial, sans-serif;
 	margin:0;
+	color:white;
 }
 
 #heroBody {
 	margin-top:10px;
+	color:white;
 }
 
 .row {
-	margin-left:480px;
-	width:460px;
 }
 
 .header {
@@ -116,4 +150,26 @@ hr {
 
 .span9 {
 	margin-left:720px;
+}
+
+.projectRow {
+}
+
+.projectImage {
+	width:220px;
+	float:left;
+	border:black solid 1px;
+	height:161px;
+}
+
+.projectDesc {
+	margin-left:240px;
+	background-color:#EFEEEE;
+	height:161px;
+}
+
+p.projectCopy {
+	padding-left:10px;
+	color:black;
+	font: 16px Helvetica Neue, Helvetica, Arial, sans-serif;
 }
