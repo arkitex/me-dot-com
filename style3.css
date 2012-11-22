@@ -7,14 +7,17 @@ html {
 body { 
 	font-family: Georgia, Times New Roman, serif; 
 	width:960px;
-	background-image:url(http://subtlepatterns.com/patterns/old_wall.png);
+	background:#FAFBF7;
+	padding-bottom: 60px;
 }  
 
 h1 {
 	font: bold 48px Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-family: Helvetica, Arial, sans-serif; 
 	margin:0px;
+	margin-top:11px;
 	float:left;
+	color:#333;
 }
 
 a {
@@ -24,7 +27,14 @@ a {
 }
 
 p {
-	color:#333333;
+	color:#333;
+}
+
+.profileImage {
+	height:75px;
+	margin-right: 10px;
+	float:left;
+	border: 1px solid black;
 }
 
 h3 {
@@ -55,22 +65,23 @@ table {
 
 #left {
 	margin-top:18px;
+	margin-bottom:40px;
 	width:462px;
 	float:left;
 	background-image: linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
-background-image: -o-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
-background-image: -moz-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
-background-image: -webkit-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
-background-image: -ms-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+	background-image: -o-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+	background-image: -moz-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+	background-image: -webkit-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
+	background-image: -ms-linear-gradient(bottom, rgb(85,85,85) 24%, rgb(102,102,102) 62%, rgb(119,119,119) 81%);
 
-background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.24, rgb(85,85,85)),
-	color-stop(0.62, rgb(102,102,102)),
-	color-stop(0.81, rgb(119,119,119))
-);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.24, rgb(85,85,85)),
+		color-stop(0.62, rgb(102,102,102)),
+		color-stop(0.81, rgb(119,119,119))
+	);
 }
 
 #right {
@@ -105,6 +116,12 @@ hr {
 #heroBody {
 	margin-top:10px;
 	color:white;
+}
+
+#footer {
+	margin-top:50px;
+	font:Helvetica Neue, Helvetica, Arial, sans-serif;
+	clear:both;
 }
 
 .row {
@@ -164,12 +181,21 @@ hr {
 
 .projectDesc {
 	margin-left:240px;
-	background-color:#EFEEEE;
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
 	height:161px;
 }
 
 p.projectCopy {
 	padding-left:10px;
+	padding-right:10px;
 	color:black;
-	font: 16px Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: Georgia, Times New Roman, serif; 
 }
