@@ -20,10 +20,33 @@ h1 {
 	color:#333;
 }
 
-a {
+h2 {
+	font: 25px Helvetica Neue, Helvetica, Arial, sans-serif;
+	color:#333;
+	margin:0;
+	margin-bottom:5px;
+}
+
+h3 {
+	font-weight:normal;
+	font-size:31px;
+	color:white;
+	background:#555;
+	padding-left:7px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h3.pageTitle {
+	margin:0;
+}
+
+h3.projectName {
+	margin-bottom:0;
+}
+
+a {	
 	text-decoration:none;
 	color:#0F0F95;
-	font-family: Helvetica Neue, Arial, sans-serif; 
 }
 
 p {
@@ -37,17 +60,23 @@ p {
 	border: 1px solid black;
 }
 
-h3 {
-	font-size:31px;
-	color:white;
-	background:#555;
-	padding-left:10px;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
-}
-
 table {
 	margin-top:24px;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+
+.thumbIpad {
+	height:240px;
+	width:180px;
+	margin-right:5px;
+	border:1px solid #333;
+}
+
+.thumbIphone {
+	height:240px;
+	width:160px;
+	margin-right:5px;
+	border:1px solid #333;
 }
 
 .tableCategory {
@@ -102,6 +131,11 @@ hr {
 	margin-bottom: 8px;
 }
 
+.heroLink {
+	color:white;
+	font-weight: bold;
+}
+
 #heroCaption {
 	font-size:16px;
 	margin:0 10px 0 10px;
@@ -137,7 +171,7 @@ hr {
 
 .contact {
 	float:right;
-	padding-top:45px;
+	padding-top:63px;
 	font-size:12px;
 }
 
@@ -148,6 +182,7 @@ hr {
 
 .navItem {
 	margin-left:5px;
+	font-family: Helvetica Neue, Arial, sans-serif; 
 }
 
 .quote p{
@@ -176,7 +211,7 @@ hr {
 	width:220px;
 	float:left;
 	border:black solid 1px;
-	height:161px;
+	height:162px;
 }
 
 .projectDesc {
@@ -190,12 +225,17 @@ background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1)
 background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
 
-	height:161px;
+	height:162px;
 }
 
 p.projectCopy {
+	margin-top:10px;
 	padding-left:10px;
 	padding-right:10px;
 	color:black;
 	font-family: Georgia, Times New Roman, serif; 
+}
+
+.fancybox-skin {
+	background:black !important;
 }
