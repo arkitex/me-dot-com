@@ -3,21 +3,33 @@
 <head>
 	<title>Ethan Lo | What would you do if you weren't afraid? </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="style3.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36584041-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
 </head>
 
 <body>
 
 <div class="container">
 	<div class="header">
-		<a href="index3.html">
+		<a href="index.html">
 			<img class="profileImage" src="images/ethan.jpg"></img>
 		</a>
 		<h1>
 			ETHAN LO
 		</h1>
 		<div class="contact">
-			<a class="navItem" href="index3.html">HOME</a>
+			<a class="navItem" href="index.html">HOME</a>
 			<a class="navItem" href="projects.html">PROJECTS</a>
 			<a class="navItem" href="contact.html">CONTACT</a>
 		</div>
@@ -27,12 +39,14 @@
 	<hr>
 		
 	<div class="clear"></div>
+
+	<p class="pageTitle">Projects</p>
 		
 	<div class="projectRow">
 		<img class="projectImage" src="images/appleads.jpg"></img>
 		<div class="projectDesc">
-			<h3 class="projectName">PONTIFLEX APPLEADS</h3>
-			<p class="projectCopy">Pontiflex Appleads is a pioneering mobile advertising solution available for iOS, Android, and Windows Phone. I developed and maintained all the client side SDK code, working with Javascript, Objective-C, Java, and C#. I developed our Windows Phone and Windows 8 SDKs from the ground up, while working closely to add features to the Android and iOS side. I worked closely with the mobile business development team to support developers using our ad SDK, and ran the customer support site on my own.</p>
+			<h3 class="projectName" id="firstRow">PONTIFLEX APPLEADS</h3>
+			<p class="projectCopy">Pontiflex Appleads is a pioneering mobile advertising solution available for iOS, Android, and Windows Phone. I developed and maintained the client side SDK code, working with Javascript, Objective-C, Java, and C#. I developed our Windows Phone and Windows 8 SDKs from the ground up, while working closely to add features to the Android and iOS side. I also interfaced with the mobile business development team to support developers using our ad SDK, and ran the developer support site on my own. Check out the <a href="https://play.google.com/store/apps/details?id=com.pontiflex.mobile.webview.app&hl=en">Android Deals App</a>.</p>
 		</div>
 	</div>
 
@@ -40,15 +54,15 @@
 		<img class="projectImage" src="images/ai.jpg"></img>
 		<div class="projectDesc">
 			<h3 class="projectName">ART INTERACTIVE</h3>
-			<p class="projectCopy">The future of museum interaction. Art Interactive is a fast, fluid iOS app that allows museum exploration from the top down. Pull back to see all the museums in New York, and drill down to see each artwork in each museum. As the iOS development lead, I work closely with the founder and designer to make their ideas reality. Check out a sample <a href="projects/artinteractive.html">here</a>. </p>
+			<p class="projectCopy">The future of museum interaction. Art Interactive is a fast, fluid iOS app that allows museum exploration from the top down. Pull back to see all the museums in New York, and drill down to see each artwork in each museum. Pull up museum hours, admissions, maps, and websites, all a touch away. As the iOS development lead, I work closely with the founder and designer to make their ideas reality. Check out a sample <a href="projects/artinteractive.html">here</a>. </p>
 		</div>
 	</div>
 
 	<div class="projectRow">
-		<img class="projectImage" src="images/lastridein.jpg"></img>
+		<img class="projectImage" src="images/lastridein.png"></img>
 		<div class="projectDesc">
 			<h3 class="projectName">LAST RIDE IN</h3>
-			<p class="projectCopy">Last Ride In is a transit framework that Matt Conlen and I built to easily view timetables on the desktop and mobile web. Built off of node-gtfs, it can pull gtfs files published by any transit authority and place them into a Mongo database. The data contained within is then served up using a server running on Node.js. The <a href="https://github.com/lab-curio/last-ride-in">source</a> is available on github. </p>
+			<p class="projectCopy">Last Ride In is a transit framework that <a href="http://www.mathisonian.com">Matt Conlen</a> and I built to easily view timetables on the desktop and mobile web. Built off of node-gtfs, it can pull gtfs files published by any transit authority and place them into a Mongo database. The data contained within is then served up using a server running on Node.js. The <a href="https://github.com/lab-curio/last-ride-in">source</a> is available on github. </p>
 		</div>
 	</div>
 
@@ -72,13 +86,14 @@
 		<img class="projectImage" src="images/unpink.jpg"></img>
 		<div class="projectDesc">
 			<h3 class="projectName">UNPINK PINTEREST</h3>
-			<p class="projectCopy">I barely use Pinterest, but when I do, I get annoyed at the subtle shades of pink that pervade every page. Annoyed enough to write a tiny chrome extension to unpink it! </p>
+			<p class="projectCopy">
+				I barely use Pinterest, but when I do, I get annoyed at the subtle shades of pink that pervade every page. More for fun and curiosity than anything else, I ended up writing a tiny chrome extension to unpink it! You can get the source <a href="https://github.com/arkitex/unpink-pinterest">here</a>.</p>
 		</div>
 	</div>
 
 	<div id="footer">
 		&copy 2012 Ethan Lo. <a href="contact.html">Get in touch!</a>
-	<div>
+	</div>
 	
 </div><!--end container-->
 
